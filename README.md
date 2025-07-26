@@ -12,11 +12,11 @@ Such processing is common in applications like ECG analysis, seismic data filter
 
 ## Features
 
-- ✅ Reads large signal files (`1000+` samples) from `.csv`
-- ⚡ CUDA kernel for moving average smoothing
-- ⚡ CUDA kernel for min-max normalization
-- 📈 Python script for plotting input vs. output
-- 🧪 Output includes smoothed, normalized `.csv` and plot image
+- Reads large signal files (`1000+` samples) from `.csv`
+- CUDA kernel for moving average smoothing
+- CUDA kernel for min-max normalization
+- Python script for plotting input vs. output
+- Output includes smoothed, normalized `.csv` and plot image
 
 ---
 
