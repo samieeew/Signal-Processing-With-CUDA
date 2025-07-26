@@ -17,14 +17,14 @@ This project implements a CUDA-accelerated moving average filter for large 1D si
 ```bash
 make
 ```
-###2. Generate sample signal and run processing
+### 2. Generate sample signal and run processing
 ```bash
 bash run.sh
 ```
-###3. Output
+### 3. Output
 Input: data/input.csv
 Output: output/result.csv
 Log: log.txt
 
-Kernel Used
+## Kernel Used
 A 1D moving average filter with adjustable window size is implemented using CUDA. Each GPU thread computes the filtered value for one data point.
