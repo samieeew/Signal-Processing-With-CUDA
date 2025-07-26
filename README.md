@@ -25,10 +25,7 @@ Such processing is common in applications like ECG analysis, seismic data filter
 ### 1. Compile the CUDA code
 ```bash
 make
-```
-
-### 2. Run the complete processing pipeline
-```bash
+make run
 bash run.sh
 ```
 ### 3. Output Artifacts
